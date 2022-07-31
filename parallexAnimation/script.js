@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d");
 const CANVAS_WIDTH = (canvas.width = 800);
 const CANVAS_HEIGHT = (canvas.height = 700);
 // To control the game Speed
-var gameSpeed = 16;
+var gameSpeed = 5;
 
 const backgroundLayer1 = new Image();
 backgroundLayer1.src = "layer-1.png";
